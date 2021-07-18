@@ -1,0 +1,117 @@
+body{
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul{
+  list-style: none;
+  background: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+li a{
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 35px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: orange;
+}
+
+.part1{
+  margin: auto;
+  height: 300px;
+  width: 400px;
+}
+
+.Assignment1{
+  height: 300px;
+  width: 400px;
+  border: 5px solid hotpink;
+
+}
+
+
+.pic{
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin-left: 60px;
+  float: left;
+}
+
+/* .part2{
+  column-count: 2;
+  column-gap:50px;
+} */
+
+.part3{
+  height: auto;
+  width: 300px;
+  margin-left: 300px;
+  float: left;
+}
+
+.sub1{
+  background-color: hotpink;
+  height: 45px;
+
+}
+
+.sub2{
+  background-color: pink;
+  height: 70px;
+}
+
+.sub3{
+  background-color: lightpink;
+  height: 70px;
+}
+
+.p1{
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.p2{
+  font-family: Courier;
+  height: 60px;
+}
+
+.p3{
+  font-family: Corsiva;
+  background-color: lightpink;
+}
+
+.button{
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding: 6px 50px;
+  border-radius: 10px;
+  border: 0 solid orange;
+  float: left;
+}
+
+.bottom{
+  height: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
