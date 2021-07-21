@@ -1,0 +1,155 @@
+.logo{
+  height:50px;
+}
+
+.logoleft > img{
+  width: 100%;
+  height: 100%;
+}
+
+.logoleft{
+  width: 70px;
+  height: 50px;
+  float:left;
+
+}
+
+.logoright > img{
+  width: 100%;
+  height: 100%;
+}
+
+.logoright{
+  width: 70px;
+  height: 50px;
+  float:right;
+}
+
+.part1>h1{
+     text-align: center;
+}
+
+.part2{
+  border: 2px solid black;
+  background-color: pink;
+  height: 500px;
+}
+
+.title{
+  color: white;
+}
+
+.sub{
+  height: 90%;
+}
+
+.sub1{
+  width: 20%;
+  height:40%;
+  float: left;
+  margin-left: 8%;
+}
+
+.sub1 > figcaption{
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.sub1 > a >img {
+   width:100%;
+   height: 100%;
+   border: 2px solid purple;
+}
+
+.sub2{
+  width: 60%;
+  height:50%;
+  float: left;
+  margin-left: 8%;
+}
+
+.sub2 > p{
+  color: white;
+  font-size: 16px;
+}
+
+.l1{
+  text-decoration: underline;
+  color: purple;
+}
+
+.l2{
+  text-decoration: underline;
+  color: blue;
+}
+
+.p1{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.part5{
+  text-align: left;
+}
+
+.table{
+   border: 2px solid black;
+}
+
+.t1{
+  background-color: lightgreen;
+}
+
+.t2{
+  background-color: pink;
+}
+
+.t3{
+  text-align: center;
+}
+
+.contact{
+  height: 200px;
+
+}
+
+.subleft{
+  width: 3%;
+  height:22%;
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 1%;
+}
+
+.subleft > img{
+  width:100%;
+  height: 100%;
+}
+
+.subright{
+  float: left;
+  width: 88%;
+  height:25%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
+.subright > p{
+  margin-bottom: 0%;
+}
+
+.part7{
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.menu li{
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer{
+  text-align:center ;
+}

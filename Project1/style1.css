@@ -1,0 +1,60 @@
+h2{
+  text-align: center;
+}
+.block1 {
+  height:300px;
+  padding-left:6%;
+  margin-top: 2%
+}
+
+.sub {
+  width: 30%;
+  height:90%;
+  float: left;
+  margin:4px;
+}
+
+.text{
+  font-size: 18px;
+  border: 4px solid  RGB(66, 135, 245);
+  outline: 1px solid purple;
+  background-color: RGB(227, 232, 231);
+  text-align: center;
+}
+
+.sub > p{
+  padding: 4% 15%;
+}
+
+
+
+.sub > img {
+   width:100%;
+   height: 100%;
+   border: 2px solid black;
+}
+
+.block2{
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.block2 > p{
+  font-size: 14px;
+}
+
+.block3{
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.menu li{
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer{
+  text-align:center ;
+}
