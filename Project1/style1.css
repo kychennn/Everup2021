@@ -20,6 +20,7 @@ h2{
   outline: 1px solid purple;
   background-color: RGB(227, 232, 231);
   text-align: center;
+  overflow: auto;
 }
 
 .sub > p{
