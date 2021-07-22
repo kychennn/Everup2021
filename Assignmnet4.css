@@ -1,0 +1,58 @@
+.part{
+  background-color: pink;
+  width: 600px;
+  height: 600px;
+  padding: 10% 25%;
+  margin: auto;
+}
+
+.img{
+  background-image: url("clockimage.png");
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.minute{
+  width: 20%;
+  height: 29%;
+  position: absolute;
+  top: 13%;
+  left: 32%;
+  animation-name: move1;
+  animation-duration: 10s;
+  transform-origin: bottom center ;
+  animation-fill-mode: forwards;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+@keyframes move1 {
+  0% { top: 13%; left: 32%;}
+  100% { top: 13%; left: 32%; transform: rotate(360deg);}
+}
+
+
+.hour{
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  top: 32%;
+  left: 41%;
+  animation-name: move2;
+  animation-duration: 10s;
+  transform-origin: center left ;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes move2 {
+  0%{top: 32%; left: 41%;}
+  100%{top: 32%; left: 41%; transform:rotate(30deg); }
+}
