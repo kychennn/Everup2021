@@ -1,0 +1,110 @@
+.main{
+  height: 1000px;
+  margin-top: 6%;
+}
+
+.block1{
+  height: 80%;
+  width: 30%;
+  border: 2px solid red;
+  float: left;
+  margin-left: 13%;
+}
+
+.part1{
+  height: 70%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.button{
+  padding: 4%;
+  background-color: orange;
+  border-radius: 8%;
+  color: white;
+  text-decoration: none;
+  margin-left: 25%;
+}
+
+img{
+  margin-left: 10%;
+  width: 80%;
+  height: 60%;
+  margin-top: 20%;
+}
+
+h4{
+  margin-left: 20%;
+}
+
+
+.modalwindow{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba( 112, 157, 230, 0.6);
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.modalwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblock{
+  width: 60%;
+  height: 60%;
+  background-color: orange;
+  margin: auto;
+  margin-top: 4%;
+  position: relative;
+}
+
+.msgblock > h1{
+  background-color: pink;
+  padding-right: 40%;
+  padding: 2%;
+  color: white;
+  position: relative;
+}
+
+.msgblock > img{
+  width: 30%;
+  height: 30%;
+}
+
+.msgblock > p{
+  position: absolute;
+  background-color: pink;
+  padding: 2%;
+  margin: 2%;
+}
+
+.msgblock > button{
+  position: absolute;
+}
+
+.close1{
+  background-color: purple;
+  padding: 2%;
+  color: powderblue;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.close2{
+  position: absolute;
+  padding: 5px;
+  top:0;
+  right:0;
+  border:1px solid white;
+  background-color: white;
+  text-decoration: none;
+  color:black;
+}
