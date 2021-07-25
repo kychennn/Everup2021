@@ -1,0 +1,11 @@
+.pic > img{
+  border-radius: 40%;
+  border: 2px solid purple;
+}
+
+.click{
+  background-color: green;
+  color: white;
+  margin-top: 90%;
+  margin-left: 80%;
+}
