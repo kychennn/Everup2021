@@ -309,7 +309,7 @@ body{
 
 /** footer **/
 footer{
-  height: 900px;
+  height: 800px;
   background-color: black;
   color: white;
   margin-top: 6%;
@@ -371,6 +371,6 @@ footer{
 }
 
 .footer3{
-  margin-top: 6%;
+  margin-top: 4%;
   text-align: center;
 }
