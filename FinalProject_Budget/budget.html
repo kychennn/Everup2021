@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/budgetstyle.css">
+    <title>Budget</title>
+  </head>
+
+  <body>
+    <h1>Budget Web App - Budget Your Money</h1>
+
+    <form class="form" action="{{url_for('thankyou')}}" method="POST">
+      <input class="text" type="number" name="income_name" placeholder="Enter your Income"><br>
+      <input class="text" type="number" name="expense_name" placeholder="Enter your Expense"><br>
+      <button class="submit" type="submit" name="button">submit</button>
+    </form>
+
+    <footer>Copyright 2021 Jiayi Chen</footer>
+
+
+  </body>
+</html>

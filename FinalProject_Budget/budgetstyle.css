@@ -1,0 +1,46 @@
+body{
+  background: linear-gradient(to bottom left, rgba(20, 151, 227, 0.7),rgba(70, 172, 232, 0.2));
+  height: 1000px;
+  /* background: linear-gradient(135deg, orange 60%, cyan); */
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+
+.text{
+  margin-left: 45%;
+  margin-top: 5%;
+  padding: 12px;
+  width: auto;
+  font-family: monospace;
+}
+
+.submit{
+  margin-left: 49%;
+  margin-top: 5%;
+  padding: 12px;
+  width: auto;
+  background-color: lightblue;
+  font-family: monospace;
+}
+
+.display{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.display > p{
+  font-size: 20px;
+}
+
+footer{
+  text-align: center;
+  color: lightpink;
+  margin-top: 25%;
+}
