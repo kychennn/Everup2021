@@ -1,1 +1,1 @@
-https://kychennn.github.io/Assignment1/Assignment1.html
+https://kychennn.github.io/Everup2021/Assignment1/Assignment1.html
