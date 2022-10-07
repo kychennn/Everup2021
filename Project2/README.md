@@ -1,4 +1,4 @@
-https://kychennn.github.io/Project2/project2.html
+https://kychennn.github.io/Everup2021/Project2/Project2.html
 
 Project 2 - Sales Webpage
 
