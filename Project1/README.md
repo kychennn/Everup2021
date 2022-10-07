@@ -1,4 +1,4 @@
-https://kychennn.github.io/Project1/Project1.html
+https://kychennn.github.io/Everup2021/Project1/Project1.html
 
 Project 1: Informative Website
 Topic: Dreaming Places
